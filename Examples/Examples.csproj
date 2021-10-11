@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.90" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="5.0.9" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <None Remove="Assets\Chinook_Sqlite.sql" />
+        <None Remove="Assets\CillyTodo_SqlServer.sql" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Assets\CillyTodo_SqlServer.sql" />
+        <EmbeddedResource Include="Assets\Chinook_Sqlite.sql" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Procilly\Procilly.csproj" />
+    </ItemGroup>
+
+</Project>

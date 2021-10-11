@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilly", "Cilly\Cilly.csproj", "{2CA23095-E4FC-416F-BF25-B74B37AEA612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Procilly", "Procilly\Procilly.csproj", "{FFC2750D-DB0D-43D9-BE0E-E01052B0A7D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{7B845723-3BED-4344-9D9D-C2DAF109802A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CA23095-E4FC-416F-BF25-B74B37AEA612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA23095-E4FC-416F-BF25-B74B37AEA612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA23095-E4FC-416F-BF25-B74B37AEA612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA23095-E4FC-416F-BF25-B74B37AEA612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC2750D-DB0D-43D9-BE0E-E01052B0A7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC2750D-DB0D-43D9-BE0E-E01052B0A7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC2750D-DB0D-43D9-BE0E-E01052B0A7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC2750D-DB0D-43D9-BE0E-E01052B0A7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B845723-3BED-4344-9D9D-C2DAF109802A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B845723-3BED-4344-9D9D-C2DAF109802A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B845723-3BED-4344-9D9D-C2DAF109802A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B845723-3BED-4344-9D9D-C2DAF109802A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
